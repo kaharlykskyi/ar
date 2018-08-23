@@ -1,0 +1,31 @@
+.member-name,
+.member-date {
+	display: inline-block;
+	font-size: 16px;
+}
+.member-date {
+	padding-left: 20px;
+}
+@media only screen and (max-width : 480px) {
+	.member-date {
+		display: block;
+		padding-top: 5px;
+		padding-left: 0;
+	}
+}
+.member-name a:hover,
+.member-reply a:hover {
+	color: #fea7cc;
+}
+.member-comment {
+	font-size: 14px;
+}
+.unit-body {
+	padding-left: 0;
+}
+.reply-wrap {
+	margin-top: 20px;
+	margin-left: 9%;
+	padding-top: 20px;
+	border-top: 1px solid #eeeeee;
+}

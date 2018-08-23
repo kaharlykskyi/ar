@@ -1,0 +1,135 @@
+.social-login-buttons>div.reg-three-elements {
+    /* display: inline-block; */
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.social-login-buttons>div {
+    float: left;
+    margin: 0;
+    padding: 5px 4px;
+    /* position: relative; */
+}
+
+.social-login-buttons a{
+    text-align: left;
+}
+
+.social-login-buttons>div:nth-child(2n):after, .social-login-buttons>div:nth-child(3):after {
+    background: none;
+    content: '';
+    left: 0;
+    top: 0;
+}
+
+
+form .label-notes{
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+
+    border-bottom: 1px solid #DDD;
+    width: 100%;
+}
+
+.file-list{
+    text-align: left;
+}
+
+
+.file-list li{
+    list-style: none !important;
+    display: inline-block !important;
+    /*float: left !important; */
+    vertical-align: middle !important;
+    /* border: 1px solid #ddd;*/
+
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow:    0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow:         0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+
+    padding: 10px !important;
+    margin: 5px !important;
+    text-align: center;
+}
+
+.file-list li div{
+
+    display: block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 210px;
+    margin-bottom: 10px;
+}
+
+.file-list li a.delete{
+    color: #D00;
+}
+
+.file-list li a{
+    font-size: 18px;
+}
+
+.input-group-append .btn, .file-input .btn{
+    height: 39px;
+}
+
+.input-group-append div.btn, .file-input div.btn{
+    padding-top: 10px;
+}
+
+.input-group-append .fileinput-cancel-button, .file-input .fileinput-cancel-button{
+    color: #D00 !important;
+}
+
+.input-group-append .fileinput-cancel-button:hover, .file-input .fileinput-cancel-button:hover{
+    background: #D00 !important;
+    color: #FFF !important;
+}
+
+.product_list li.deactive .product-container, .product_list li.deactive .product-image-container{
+    background: #fde1dd !important;
+}
+
+.file-caption-main
+{
+    width: 90%;
+}
+
+.block_content {
+    font-size: 16px !important;
+}
+
+.breadcrumb {
+    font-size: 20px !important;
+}
+
+.table-bordered th{
+    padding: 5px;
+    font-size: 16px;
+}
+.table-bordered tr{
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+.logined-content p{
+    font-size: 18px;
+}
+
+form label{
+    font-size: 14px;
+    color: #928551;
+}
+label.control-label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #777;
+}
+
+ul.product_list .favorite .favorite-active{
+    color: #FF0000;
+}

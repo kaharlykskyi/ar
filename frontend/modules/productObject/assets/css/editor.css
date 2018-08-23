@@ -1,0 +1,104 @@
+.j-upload-label-block .img-contener{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+
+.j-upload-label-block input[type=file] {
+
+}
+
+.c-btn-file {
+    color: #2e6da4 !important;
+    background-color: #ffffff00 !important;
+    border-color: #ffffff00 !important;
+}
+
+.c-btn-file i{
+    font-size: 18px;
+}
+
+.c-upload-label-block .btn{
+    padding: 0px !important;
+}
+
+.j-photo-item img{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+
+/* convas  */
+
+
+.bl_canvas-container{
+    /* width:672px; */
+    /*height:392px;*/
+    padding: 0px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow:    0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    box-shadow:         0px 0px 15px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    padding: 50px;
+    background: #fffbd5;
+    min-height: 800px;
+    width: 100%;
+}
+
+.canvas-container canvas{
+    border: dashed #E2E2E2 1px !important;
+}
+
+.canvas-container{
+    background: #FFF;
+    padding: 100px;
+
+}
+
+.c-font-item{
+    padding: 5px 0px;
+    margin: 10px 0px;
+    border: 2px solid #FFF;
+    cursor: pointer;
+    width: -webkit-calc(50% - 2px);
+    width: -moz-calc(50% - 2px);
+    width: calc(50% - 2px);
+    float: left;
+    text-align: center;
+    height: 45px;
+
+}
+.c-font-item:hover{
+    border: 2px solid #f6bef8;
+}
+.c-font-item:before{
+    content: '';
+    width: 0px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.c-font-item span{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.editor-next-page{
+    left: -1500px;
+}
+
+.editor-preview-page{
+    left: 1500px;
+}
+
+.tabpanel-content-header{
+    padding: 20px
+}
+
+.tab-content-text{
+    height: -webkit-calc(100% - 165px);
+    height: -moz-calc(100% - 165px);
+    height: calc(100% - 165px);
+}

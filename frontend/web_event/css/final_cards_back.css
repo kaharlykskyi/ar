@@ -1,0 +1,195 @@
+body {
+    padding-top: 60px;
+    font-family: 'Lato', sans-serif;
+    line-height: normal
+}
+.navbar.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    min-height: 60px;
+}
+
+.navbar-brand{
+    padding: 20px 15px;
+    height: 60px;
+}
+.container_card{
+    width: 100%;
+    height: 720px;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+.bl_envelope{
+    width: 500px;
+    height: 1400px;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    margin-left: -250px;
+}
+.bl_envelope .layer1,
+.bl_envelope .layer2,
+.bl_envelope .layer3{
+    width: 100%;
+    height: 50%;
+    background-position: center bottom;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.bl_envelope .layer2{
+    width: 454px;
+    height: 636px;
+    left: 50%;
+    margin-left: -227px;
+    bottom: -140px;
+}
+
+
+.bl_envelope1{
+    width: 500px;
+    height: 1400px;
+    position: absolute;
+    bottom: -15px;
+    right: 90%;
+    margin-left: -250px;
+}
+.bl_envelope1 .layer1,
+.bl_envelope1 .layer3{
+    width: 100%;
+    height: 50%;
+    background-position: center bottom;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+.envelope_mini{
+    width: 225px;
+    height: 290px;
+    background-position: center bottom;
+    background-size: cover;
+    position: absolute;
+    left: 50%;
+    margin-left: -600px;
+    top: 50%;
+    margin-top: -145px;
+}
+.container_contact{
+    display: block;
+    width: 100%;
+    padding-top: 50px;
+}
+.contact_h1 {
+    font-size: 40px;
+    color: rgb(41, 41, 41);
+    text-align: center;
+    position: relative;
+    overflow-x: hidden;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.contact_h1 span{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+ }
+.contact_h1 span:before{
+    content: '';
+    background-color: rgb(41, 41, 41);
+    position: absolute;
+    left: -180px;
+    top: 50%;
+    width: 160px;
+    height: 1px;
+}
+.contact_h1 span:after{
+    content: '';
+    background-color: rgb(41, 41, 41);
+    position: absolute;
+    right: -180px;
+    top: 50%;
+    width: 160px;
+    height: 1px;
+}
+.small_text {
+    font-size: 14px;
+    color: rgb(137, 137, 137);
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.btn-primary{
+    border: 2px #292929 solid;
+    background-color: #292929;
+    height: 46px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #fefefe;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 12px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+.btn-default{
+    border: 2px #292929 solid;
+    background-color: #fff;
+    height: 46px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #292929;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 12px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+.small_user_name {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(41, 41, 41);
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.step-move-bootom{
+    bottom: -700px !important;
+}
+
+.step-cart-top{
+    bottom: 730px !important;
+}
+
+.front {
+    width: 454px !important;
+    height: 636px !important;
+ /*   top: 0px;
+    position: absolute;
+    */
+}
+
+.back {
+    width: 454px !important;
+    height: 636px !important;
+    /*top: 0px;
+    position: absolute;
+    */
+}

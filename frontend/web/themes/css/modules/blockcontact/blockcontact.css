@@ -1,0 +1,123 @@
+.shop-phone,
+.shop-offer {
+    color: #acacac;
+    display: inline-block;
+    padding-top: 33px;
+}
+
+.shop-offer {
+	padding-top: 20px;
+}
+
+.shop-phone span,
+.shop-offer span {
+    display: block;
+    font: 400 14px/18px "Lato", sans-serif;
+    letter-spacing: -0.1px;
+    padding-top: 5px;
+}
+
+.shop-offer span {
+	font: 400 17px/18px "Lato", sans-serif;
+}
+
+.shop-phone a,
+.shop-offer a {
+    color: #333333;
+    font: 900 20px/30px "Lato", sans-serif;
+    letter-spacing: 1.3px;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.shop-offer a {
+	font: 900 40px/45px "Lato", sans-serif;
+}
+
+.shop-phone a:hover,
+.shop-offer a:hover {
+    color: #fea7cc;
+}
+
+@media (max-width: 1199px) {
+    .shop-phone {
+        padding-top: 10px;
+    }
+    .shop-offer {
+    	  padding-top: 5px;
+    }
+    .shop-phone a {
+        font-size: 18px;
+    }
+    .shop-offer a {
+		  font-size: 35px;	
+    }
+}
+
+@media (max-width: 767px) {
+    .shop-phone,
+    .shop-offer {
+        display: block;
+        padding-top: 0;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .shop-offer span {
+        padding-top: 0;
+        font: 400 14px/5px "Lato",sans-serif;
+    }
+    .shop-offer a {
+    	  font-size: 30px;
+    }
+}
+
+#contact-link {
+    float: right;
+}
+
+#contact-link a {
+    color: #acacac;
+    cursor: pointer;
+    display: block;
+    font: 400 14px/1 "Lato", sans-serif;
+    position: relative;
+    text-transform: capitalize;
+    border-left: none;
+}
+
+#contact-link a:hover,
+#contact-link a.active {
+    background: #1c1c1c;
+}
+
+@media (max-width: 767px) {
+    #contact_block {
+        margin-bottom: 20px;
+    }
+}
+
+#contact_block .label {
+    display: none;
+}
+
+#contact_block .block_content {
+    color: #888888;
+}
+
+#contact_block p {
+    margin-bottom: 4px;
+}
+
+#contact_block p.tel {
+    font: 400 17px/21px "Lato", sans-serif;
+    color: #707070;
+    margin-bottom: 6px;
+}
+
+#contact_block p.tel i {
+    font-size: 25px;
+    vertical-align: -2px;
+    padding-right: 10px;
+}
